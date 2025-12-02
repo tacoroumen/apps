@@ -1,0 +1,23 @@
+images:
+  image:
+    repository: https://github.com/element-hq/synapse/releases
+    tag: 1.143.0
+  container_utils_image:
+    repository: ixsystems/container-utils
+    tag: 1.0.2
+  postgres_17_image:
+    repository: postgres
+    tag: 17.7-bookworm
+  postgres_18_image:
+    repository: postgres
+    tag: 18.1-trixie
+  postgres_upgrade_image:
+    repository: ixsystems/postgres-upgrade
+    tag: 1.1.2
+
+consts:
+  synapse_container_name: element synapse
+  postgres_container_name: postgres
+  perms_container_name: permissions
+  db_name: synapse
+  db_user: synapse

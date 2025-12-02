@@ -1,0 +1,37 @@
+app_version: 1.143.0
+capabilities: []
+categories:
+- productivity
+changelog_url: https://github.com/element-hq/synapse/releases
+date_added: '2025-12-02'
+description: Element Synapse - Matrix homeserver implementation.
+home: https://github.com/element-hq/synapse
+host_mounts: []
+icon: (input)
+keywords:
+- Element
+- Synapse
+- Matrix
+lib_version: 2.1.65
+lib_version_hash: f92a9ee78c78fc77f86e7d8b545bd4c605c31c599e2c5da59f1615aa516cb8b5
+maintainers:
+- email: dev@truenas.com
+  name: truenas
+  url: https://www.truenas.com/
+name: Element Synapse
+run_as_context:
+- description: Element Synapse runs as any non-root user.
+  gid: 568
+  group_name: Element Synapse
+  uid: 568
+  user_name: Element Synapse
+- description: Postgres runs as non-root user.
+  gid: 999
+  group_name: postgres
+  uid: 999
+  user_name: postgres
+sources:
+- https://github.com/element-hq/synapse
+title: Element Synapse
+train: community
+version: 1.0.0
