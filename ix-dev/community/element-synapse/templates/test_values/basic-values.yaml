@@ -27,20 +27,10 @@ ix_volumes:
   postgres_data: /opt/tests/mnt/synapse/postgres_data
 
 storage:
-  uploads:
+  synapse_data:
     type: ix_volume
     ix_volume_config:
-      dataset_name: uploads
-      create_host_path: true
-  public:
-    type: ix_volume
-    ix_volume_config:
-      dataset_name: public
-      create_host_path: true
-  themes:
-    type: ix_volume
-    ix_volume_config:
-      dataset_name: themes
+      dataset_name: synapse_data
       create_host_path: true
   postgres_data:
     type: ix_volume
