@@ -1,6 +1,6 @@
 images:
   image:
-    repository: ghcr.io/element-hq/synapse
+    repository: ghcr.io/matrixdotorg/synapse
     tag: 1.143.0
   container_utils_image:
     repository: ixsystems/container-utils
