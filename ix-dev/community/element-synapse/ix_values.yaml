@@ -16,7 +16,7 @@ images:
     tag: 1.1.2
 
 consts:
-  synapse_container_name: element synapse
+  synapse_container_name: element_synapse
   postgres_container_name: postgres
   perms_container_name: permissions
   db_name: synapse
