@@ -22,7 +22,7 @@ questions:
       required: true
       $ref:
         - definitions/timezone
-  - variable: Synapse
+  - variable: synapse
     label: ""
     group: Synapse Configuration
     schema:
