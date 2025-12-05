@@ -21,3 +21,4 @@ consts:
   perms_container_name: permissions
   db_name: synapse
   db_user: synapse
+  synapse_data: /data
