@@ -23,8 +23,8 @@
 
 {% do c1.environment.add_env("SYNAPSE_REPORT_STATS", values.synapse.report_stats) %}
 {% do c1.environment.add_env("SYNAPSE_HTTP_PORT", values.network.web_port.port_number) %}
-{% do c1.environment.add_env("DATABASE_URL", postgres.get_url("postgres")) %
-
+{% do c1.environment.add_env("DATABASE_URL", postgres.get_url("postgres")) %}
+{% do c1.environment.add_env("SYNAPSE_SERVER_NAME", values.synapse.server_name) %}
 
 {% do c1.environment.add_user_envs(values.synapse.additional_envs) %}
 
